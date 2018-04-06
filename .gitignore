@@ -22,5 +22,13 @@
 
 .byebug_history
 
+/cofig/database.yml
+/cofig/secrets.yml
+
 /config/database.yml
 /config/secrets.yml
+
+/.drone.yml
+/.framgia-ci-result.temp.yml
+/Dockerfile
+/.framgia-ci-reports
