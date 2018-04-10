@@ -5,7 +5,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
 gem "rails", "~> 5.1.6"
 # Use sqlite3 as the database for Active Record
@@ -39,6 +38,24 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem "capybara", "~> 2.13"
   gem "selenium-webdriver"
+  # Call "byebug" anywhere in the code to stop execution and get a debugger console
+  gem "rspec-collection_matchers"
+  gem "factory_girl_rails"
+  gem "better_errors"
+  # gem "guard-rspec", require: false
+  gem "database_cleaner"
+  gem "brakeman", require: false
+  gem "jshint"
+  gem "bundler-audit"
+  gem "rubocop", "~> 0.35.0", require: false
+  gem "rubocop-checkstyle_formatter", require: false
+  # gem "eslint-rails", git: "https://github.com/octoberstorm/eslint-rails", require: false
+  gem "scss_lint_reporter_checkstyle", require: false
+  gem "eslint-rails"
+  gem "rails_best_practices"
+  gem "reek"
+  gem "railroady"
+  gem "autoprefixer-rails"
 end
 
 group :development do
@@ -52,3 +69,10 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+group :test do
+  gem "simplecov", require: false
+  gem "simplecov-rcov", require: false
+  gem "simplecov-json"
+  gem "shoulda-matchers"
+end
