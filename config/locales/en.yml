@@ -30,5 +30,36 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
-  title: "Testrepo"
+  static_page :
+    base_title : "Ruby on Rails Tutorial Sample App"
+    home :
+      h1 : "Sample App"
+      page_title : "Home"
+      p1 : "This is the home page for the"
+      a : "Ruby on Rails Tutorial"
+      p2 : "sample application."
+    help :
+      h1 : "Help"
+      page_title : "Help"
+      p1 : "Get help on the Ruby on Rails Tutorial at the"
+      a1 : "Rails Tutorial help page"
+      p2 : "To get help on this sample app, see the"
+      em : "Ruby on Rails Tutorial"
+      p3 : "book"
+    about :
+      h1 : "About"
+      page_title : "About"
+      p1 : "The"
+      em : "Ruby on Rails Tutorial"
+      p2 : " is a"
+      a1 : "book"
+      p3 : " and"
+      a2 : "screencast series"
+      p4 : "to teach web development with"
+      a3 : "Ruby on Rails"
+      p5 : "This is the sample application for the tutorial."
+    contact :
+      h1 : "Contact"
+      page_title : "Contact"
+      p : "Contact the Ruby on Rails Tutorial about the sample app at the"
+      a : "contact page"

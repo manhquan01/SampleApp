@@ -40,7 +40,8 @@ group :development, :test do
   gem "selenium-webdriver"
   # Call "byebug" anywhere in the code to stop execution and get a debugger console
   gem "rspec-collection_matchers"
-  gem "factory_girl_rails"
+  # gem "factory_girl_rails"
+  gem "factory_bot_rails"
   gem "better_errors"
   # gem "guard-rspec", require: false
   gem "database_cleaner"
