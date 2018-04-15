@@ -55,6 +55,9 @@ GEM
       erubi (>= 1.0.0)
       rack (>= 0.9.0)
     bindex (0.5.0)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     brakeman (4.2.1)
     builder (3.2.3)
     bundler-audit (0.6.0)
@@ -120,7 +123,6 @@ GEM
       therubyracer (~> 0.12.1)
     json (2.1.0)
     libv8 (3.16.14.19)
-    libv8 (3.16.14.19-x86_64-linux)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -285,6 +287,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   better_errors
+  bootstrap-sass (= 3.3.7)
   brakeman
   bundler-audit
   byebug
