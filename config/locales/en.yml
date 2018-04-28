@@ -73,8 +73,13 @@ en:
       page_title : "Contact"
       p : "Contact the Ruby on Rails Tutorial about the sample app at the"
       a : "contact page"
-  users:
-    new:
+  users :
+    new :
       signup : "Sign up"
-      h1 : "Sign up"
-      p : "This will be a signup page for new users."
+      name : "Name"
+      mail : "Email"
+      password : "Password"
+      confirm : "Confirmation"
+      submit : "Create my account"
+      danger : "User don't exist"
+      success : "Welcome to the Sample App!"
